@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/*agreagado*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*agreagado*/
+
+/* Inicio Header*/
+.header {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+/* Fin Header*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Barra de navegación */
+.navegacion {
+  padding: 10px;
+}
+.navegacion-lista {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.list-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.list-item:last-child {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+/* Inicio Container*/
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* Fin Container*/
+
+/* Inicio mapa*/
+.mapa {
+  display: flex;
+  column-gap: 15px;
+}
+/* Fin mapa*/
+
+/* Sección de contacto */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form button {
+  background-color: #93e412;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  padding: 15px;
+  background-color: #8f8f8f;
+  color: white;
+}
+
+.footer-text {
+  text-align: center;
+}
